@@ -1,4 +1,4 @@
-public class whileLoop{
+public class whileloop2{
 
     public static void main(String[] args) {
 	      // decresing

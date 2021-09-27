@@ -1,5 +1,5 @@
 import java.util.*;
-public class Practice6 {
+public class linkedlist {
     public static void main(String[] args) {
         String[]things = {"car", "house", "mother", "sister", "brother", "zai"};
         List<String> list1 = new LinkedList<String>();

@@ -1,4 +1,4 @@
-public class Practice2 {
+public class dowhile2 {
     public static void main(String[] args) {
         int i = 1;
         do{

@@ -1,4 +1,4 @@
-public class multidimensionalarray{
+public class multidimentionalarray{
     public static void main(String[] args) {
         int firstarray[][] = {{83, 61, 51}, {51, 31, 21, 31, 41}, {31, 41, 51, 61}};
         int secondarray[][] = {{31, 15, 41}, {31, 41, 51, 61, 41}, {22}};

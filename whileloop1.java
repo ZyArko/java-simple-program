@@ -1,4 +1,4 @@
-public class whileLoop1 {
+public class whileloop1 {
     public static void main(String[] args) {
         
         int juan = 1;
@@ -7,6 +7,6 @@ public class whileLoop1 {
             System.out.println("Juan");
             System.out.println(juan);
             juan+=2;
-	      }
+	    }
     }
 }

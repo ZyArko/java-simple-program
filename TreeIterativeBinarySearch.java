@@ -37,7 +37,7 @@ public class TreeIterativeBinarySearch {
  * @param number
  * @return location of element in array
  */
- public static void binarySearch(int[] input, int number) {
+public static void binarySearch(int[] input, int number) {
     int first = 0;
     int last = input.length - 1;
     int middle = (first + last) / 2;
@@ -57,5 +57,5 @@ public class TreeIterativeBinarySearch {
     if (first > last) {
       System.out.println(number + " is not present in the list.\n");
       }
-   }
+  }
 }

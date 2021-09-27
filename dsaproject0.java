@@ -1,8 +1,9 @@
 import java.util.*;
 
-public class DSAProject {
+public class dsaproject0 {
+	static Scanner input = new Scanner(System.in);
+
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
 		boolean courseMenu = true;
 		do {
 			System.out.println();

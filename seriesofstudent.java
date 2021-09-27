@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class seriesofstudent {
     static Scanner s = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
 
         boolean repeat=true;
         while (repeat == true){

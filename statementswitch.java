@@ -1,7 +1,9 @@
 import java.util.Scanner;
-public class switch {
+public class statementswitch {
+
+    static Scanner in = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+
         float num1, num2;
         double total;
         char operator;
