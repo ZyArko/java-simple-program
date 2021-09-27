@@ -3,8 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dsaproject;
-
 /**
  *
  * @author Zairyl Zafra
@@ -16,8 +14,10 @@ public class DSAProject {
 	/**
 	 * @param args the command line arguments
 	 */
+
+	static Scanner input = new Scanner(System.in);
+
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
 		boolean courseMenu = true;
 		do {
 			System.out.println();

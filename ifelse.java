@@ -1,7 +1,8 @@
 import java.util.Scanner;
-public class ifElse {
+public class ifelse {
+
+    static Scanner s = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
         float num1, num2;
         double total;
         char operator;
@@ -12,9 +13,9 @@ public class ifElse {
         num2 = s.nextFloat();
         System.out.println("Enter the Operator: + , - , + , / ");
         System.out.println("");
-       
+        
         total = num1 + num2;
-        operator = in.next().charAt(0);
+        operator = s.next().charAt(0);
         
         if (operator == '+'|| operator == '-' || operator == '*' 
                 || operator == '/') {

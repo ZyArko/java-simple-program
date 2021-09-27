@@ -1,7 +1,7 @@
 import java.util.*;
-public class JavaApplication1 {
+public class dsamidterm1 {
+    static Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         boolean menu = false;
         do {
             System.out.println("Welcome to MIDTERM Practical Exam, please choose a lesson to start an exercise: ");

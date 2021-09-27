@@ -3,9 +3,8 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class binarySearch {
-
+	static Scanner s = new Scanner(System.in);
 	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
 
 		System.out.println("Enter a series of number: ");
 		int num = s.nextInt();

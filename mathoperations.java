@@ -1,7 +1,7 @@
 import java.util.Scanner;
-public class mathOperations {
+public class mathoperations {
+    static Scanner s = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
         
         double total = 0;
         int num1;

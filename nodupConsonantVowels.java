@@ -1,7 +1,7 @@
 import java.util.Scanner;
-public class noDupConsonantVowels{
+public class nodupConsonantVowels{
+    static Scanner s = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
         
         String str;
         System.out.print("Enter a string: ");

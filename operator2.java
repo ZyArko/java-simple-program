@@ -1,7 +1,8 @@
 import java.util.Scanner;
-public class operator {
-     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+public class operator2 {
+    static Scanner s = new Scanner(System.in);
+    public static void main(String[] args) {
+
         
         float num1, num2;
         double add,sbt,mul,div;
@@ -31,6 +32,6 @@ public class operator {
             System.out.println(num1+" "+" /"+" "+num2+" = "+" "+ div);
         }else {
             System.out.println("Sorry Wrong input! Please Try Again!");
-         }
+        }
     }
 }

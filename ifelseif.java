@@ -1,7 +1,8 @@
 import java.util.Scanner;
-public class ifElseIf {
+public class ifelseif {
+
+    static Scanner s = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
         
         float num1, num2;
         double total;

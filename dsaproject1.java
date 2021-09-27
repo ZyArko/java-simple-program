@@ -4,7 +4,7 @@ import java.util.*;
  *
  * @author raymart
  */
-public class JavaApplication91 {
+public class dsaproject1 {
 
     public static Scanner s = new Scanner(System.in);
     public static Scanner sc = new Scanner(System.in);

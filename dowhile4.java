@@ -1,25 +1,24 @@
 import java.util.Scanner;
-public class JavaApplication1 {
+public class dowhile4 {
+
+    static Scanner s= new Scanner(System.in);
+
     public static void main(String[] args) {
-        Scanner s= new Scanner(System.in);
         
-	      // create a simple program using while loop
-	
         int number;
         String name;
         int i = 1;
         
-        System.out.print("Enter a number of loops: ");
+        System.out.print("Enter a Number: ");
         number=s.nextInt();
-	      s.nextLine();
-
+        s.nextLine();
         System.out.print("Enter a Name: ");
         name=s.nextLine();
         
-	      System.out.println("Output:");
-        while(i <= number){
+        do{
             System.out.println(name);
             i++;
-        }
+        }while(i <= number);
+        
     }
 }

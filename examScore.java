@@ -1,8 +1,9 @@
 import java.util.Scanner;
 import java.util.Arrays;
 public class examScore {
-   public static void main(String[] args) {
-     Scanner s = new Scanner(System.in);
+    static Scanner s = new Scanner(System.in);
+    
+    public static void main(String[] args) {
         
         int examScore[] = new int[5];
 

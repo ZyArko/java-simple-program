@@ -1,8 +1,8 @@
 import java.util.Scanner;
 public class oddEven {
-     public static void main(String[] args) {
-         Scanner s = new Scanner(System.in);
-         
+    static Scanner s = new Scanner(System.in);
+    public static void main(String[] args) {
+        
         int num[] = new int[6];
         int sum = 0;
 
@@ -13,7 +13,7 @@ public class oddEven {
         for (int i = 1; i < num.length; i++) {
             sum = sum + num[i];
         }
-             System.out.println("The total of all number is :"+ sum);
+            System.out.println("The total of all number is :"+ sum);
         for (int i = 1; i < 2; i++) {
             if (sum  == 0) {
                 

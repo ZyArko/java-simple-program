@@ -1,7 +1,7 @@
 import java.util.Scanner;
-public class averageMethod {
+public class averagemethod {
+    static Scanner s = new Scanner(System.in);
     public static void main(String[] args) {
-    Scanner s = new Scanner(System.in);
         double total = 0;
         int num1, num2, num3, num4, num5;
         System.out.print("Enter a first number: ");
@@ -23,4 +23,5 @@ public class averageMethod {
         total = (num1 + num2 + num3 + num4 + num5) / 5;
         return total;
     }
+    
 }

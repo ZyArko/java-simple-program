@@ -1,7 +1,8 @@
 import java.util.Scanner;
 public class operator {
-     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+    static Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) {
+
         
         //write a java program that determine the ff.
         // 1. average of all number
@@ -15,7 +16,7 @@ public class operator {
         double product = 0, product1=0;
         for (int i = 1; i < num.length; i++) {
             System.out.print("Enter number " + i + ": ");
-            num[i] = s.nextInt();
+            num[i] = scanner.nextInt();
 
         }
 
@@ -45,7 +46,7 @@ public class operator {
             }
         }
             for (int i = 1; i < 6; i++) {
-             sum1 += num[i];
+            sum1 += num[i];
             }
     
             System.out.print("The sum of 5 number is : " + sum1);

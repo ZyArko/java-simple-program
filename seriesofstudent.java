@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class JavaApplication1 {
+public class seriesofstudent {
+    static Scanner s = new Scanner(System.in);
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 

@@ -1,7 +1,7 @@
 import java.util.Scanner;
-public class myListArray {
-public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+public class mylistarray {
+    static Scanner s = new Scanner(System.in);
+    public static void main(String[] args) {
 
         String name[] = new String[3];
         int age[] = new int[3];

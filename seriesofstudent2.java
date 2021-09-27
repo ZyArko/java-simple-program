@@ -1,7 +1,8 @@
 import java.util.Scanner;
-public class seriesOfStudent {
+public class seriesofstudent2 {
+
+    static Scanner s = new Scanner(System.in);
 public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
         
         int x = 1, y = 100;
         int series;
